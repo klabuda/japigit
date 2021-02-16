@@ -1,0 +1,98 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Kerstin\Desktop\School\IFT458\2021\Project 5> & C:/Users/Kerstin/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/Kerstin/Desktop/School/IFT458/2021/Project 5/japi.py"
+Enter a stock symbol: aapl
+Enter a stock symbol: ibm
+Enter a stock symbol: gme
+Enter a stock symbol: ea
+Enter a stock symbol: amzn
+Enter a stock symbol: quit
+{
+    "Global Quote": {
+        "01. symbol": "AAPL",
+        "02. open": "134.3500",
+        "03. high": "135.5300",
+        "04. low": "133.6921",
+        "05. price": "135.3700",
+        "06. volume": "60145130",
+        "07. latest trading day": "2021-02-12",
+        "08. previous close": "135.1300",
+        "09. change": "0.2400",
+        "10. change percent": "0.1776%"
+    }
+}
+
+The current price of AAPL is: 135.3700
+
+{
+    "Global Quote": {
+        "01. symbol": "IBM",
+        "02. open": "121.0000",
+        "03. high": "121.3600",
+        "04. low": "120.0900",
+        "05. price": "120.8000",
+        "06. volume": "3871195",
+        "07. latest trading day": "2021-02-12",
+        "08. previous close": "120.9100",
+        "09. change": "-0.1100",
+        "10. change percent": "-0.0910%"
+    }
+}
+
+The current price of IBM is: 120.8000
+
+{
+    "Global Quote": {
+        "01. symbol": "GME",
+        "02. open": "50.7500",
+        "03. high": "55.2400",
+        "04. low": "48.0500",
+        "05. price": "52.4000",
+        "06. volume": "14573264",
+        "07. latest trading day": "2021-02-12",
+        "08. previous close": "51.1000",
+        "09. change": "1.3000",
+        "10. change percent": "2.5440%"
+    }
+}
+
+The current price of GME is: 52.4000
+
+{
+    "Global Quote": {
+        "01. symbol": "EA",
+        "02. open": "146.8200",
+        "03. high": "147.8400",
+        "04. low": "145.0400",
+        "05. price": "147.7400",
+        "06. volume": "1666142",
+        "07. latest trading day": "2021-02-12",
+        "08. previous close": "147.3300",
+        "09. change": "0.4100",
+        "10. change percent": "0.2783%"
+    }
+}
+
+The current price of EA is: 147.7400
+
+{
+    "Global Quote": {
+        "01. symbol": "AMZN",
+        "02. open": "3250.0000",
+        "03. high": "3280.2500",
+        "04. low": "3233.3100",
+        "05. price": "3277.7100",
+        "06. volume": "2335339",
+        "07. latest trading day": "2021-02-12",
+        "08. previous close": "3262.1300",
+        "09. change": "15.5800",
+        "10. change percent": "0.4776%"
+    }
+}
+
+The current price of AMZN is: 3277.7100
+
+PS C:\Users\Kerstin\Desktop\School\IFT458\2021\Project 5> 

@@ -23,6 +23,8 @@ def main():
         print('The current price of ' + pydata['Global Quote']['01. symbol'] + ' is: ' + pydata['Global Quote']['05. price'])
         print()
 
+    print("Stock Quotes retrieved successfully!")
+    
 
 if __name__ == '__main__':
     main()
